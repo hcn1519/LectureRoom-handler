@@ -9,12 +9,20 @@
 #### 원본 파일에서 필요한 정보만 남겨두고 나머지 칼럼들은 제거
 <img src="https://rawgit.com/hcn1519/LectureRoom-handler/master/images/image2.png">
 
-<br/>
+<ol>
+<li>wb = openpyxl.load_workbook('/Users/changnam/Desktop/lectureSeed.xlsx')의 경로를 알맞게 설정합니다.</li>
+<li>프로그램을 돌립니다.</li>
+</ol>
 
-#### 파이썬 정규표현식을 사용하여 강의실 번호로 데이터 재구성
+```
+  python makeExcelForLecture.py
+```
+
+
+#### 결과물1: lectureRoom.xlsx, 파이썬 정규표현식을 사용하여 강의실 번호로 데이터 재구성
 <img src="https://rawgit.com/hcn1519/LectureRoom-handler/master/images/image3.png">
 
 <br/>
 
-#### 파이썬 정규표현식을 사용하여 강의시간으로 데이터 재구성
+#### 결과물2: lectureTime.xlsx, 파이썬 정규표현식을 사용하여 강의시간으로 데이터 재구성
 <img src="https://rawgit.com/hcn1519/LectureRoom-handler/master/images/image4.png">
